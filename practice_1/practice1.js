@@ -18,12 +18,13 @@ let incr = 10,
 console.log(++incr);
 console.log(--decr);
 
+//Операторы сравнения
 console.log(2*4 == 8); //сравнение не строгое 
 console.log(2*4 == '8'); //сравнение не строгое
 console.log(2*4 === 8); //строгое сравнение (тут на примере сравнения типа данных)
 console.log(2*4 === '8'); //false
 
-
+//логические операторы 
 //&& - и
 // || - или
 
@@ -37,7 +38,7 @@ const isChecked1 = true,
 
 console.log(isChecked1 || isClose1);//true 
 
-//  ! - оператро отрицания
+//  ! - оператор отрицания
 
 console.log(2 + 2 * 2 === '6');//false
 console.log(2 + 2 * 2 == '6');//true
