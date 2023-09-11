@@ -21,3 +21,26 @@ personaMovieDB.movies[a] = b;
 personaMovieDB.movies[c] = d;
 
 console.log(personaMovieDB);
+
+
+//условия
+
+if (4 == 4) {
+    console.log('ok!')
+}; //верно
+
+if (4 == 8) {
+    console.log('ok!');
+} else {
+    console.log('Bad!');
+}; //верно
+
+const num = 50;
+
+if (num < 49) {
+    console.log('error!');
+} else if (num > 100) {
+    console.log('много!')
+} else {
+    console.log('ok!')
+}
