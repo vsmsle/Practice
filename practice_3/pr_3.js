@@ -30,6 +30,52 @@ if (humburger == 3 && cola === 1 && fries) {
     console.log('мы уходим');
 }
 
+console.log( NaN || 2 || undefined );
+
+console.log( NaN && 2 && undefined );
+
+console.log( 1 && 2 && 3 );
+
+console.log( !1 && 2 || !3 );
+
+console.log( 25 || null && !3 );
+
+console.log( NaN || null || !3 || undefined || 5);
+
+console.log( NaN || null && !3 && undefined || 5);
+
+console.log( 5 === 5 && 3 > 1 || 5);
 
 
 
+const hamburger4 = 3;
+const fries4 = 3;
+const cola4 = 0;
+const nuggets4 = 2;
+
+
+if (hamburger4 === 3 && cola4 || fries4 === 3 && nuggets4) {
+   console.log('Done!')
+} //done
+
+
+let hamburger5;
+const fries5 = NaN;
+const cola5 = 0;
+const nuggets5 = 2;
+
+
+if (hamburger5 || cola5 || fries5 === 3 || nuggets5) {
+   console.log('Done!')
+} //done
+
+
+let hamburger6;
+const fries6 = NaN;
+const cola6 = 0;
+const nuggets6 = 2;
+
+
+if (hamburger6 && cola6 || fries6 === 3 && nuggets6) {
+   console.log('Done!')
+}
