@@ -39,6 +39,7 @@ if (personaMovieDB.count < 10) {
     console.log("Вы киноман");
 } else {
     console.log("Произошла ошибка");
+    console.log('Произошла ошибка');
 }
 
 console.log(personaMovieDB);
