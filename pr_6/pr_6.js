@@ -43,7 +43,41 @@ function test() {
 
 test();
 
-
-function doNothing() {};
+function doNothing() {}
 console.log(doNothing() === undefined);
-//пример того, что функция всегда что-то возвращает 
+//пример того, что функция всегда что-то возвращает
+
+// Место для первой задачи
+function sayHello(name) {
+  return `Привет, ${name}!`;
+}
+sayHello;
+
+// Место для второй задачи
+function returnNeighboringNumbers(num) {
+  return [num - 1, num, num + 1];
+}
+
+// Место для третьей задачи
+function getMathResult(num1, times) {
+  if (typeof times !== "number" || times <= 0) {
+    return num1;
+  }
+
+  let str = "";
+
+  for (let i = 1; i <= times; i++) {
+    if (i === times) {
+      str += `${num1 * i}`;
+      // Тут без черточек в конце
+    } else {
+      str += `${num1 * i}---`;
+      // Это тоже самое, что и
+      // str = str + num * i + "---"
+    }
+  }
+
+  return str;
+}
+
+getMathResult(10, 5);
